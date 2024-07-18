@@ -18,10 +18,25 @@ This is a simple project to setup a GraphQL server and create endpoints using Ap
 ## Screenshots from the Apollo Server Studio (Sandbox)
 
 - Query to fetch posts
+  ![3-apollo studio-query-posts](https://github.com/user-attachments/assets/b34dc20e-968a-4eff-aeeb-cbfea97608bb)
+  
+
 - Query to fetch a single post by id
+  ![2-apollo studio-post by id](https://github.com/user-attachments/assets/2199b07e-e085-44ef-ae1b-7fc52083c2fd)
+  
+
 - Mutation to create a post
+  ![1-apollo studio-CreatePost](https://github.com/user-attachments/assets/1c1441b2-0c0e-4d6f-9ceb-f92f704a1db4)
+  
+
 - Mutation to update a post
+  ![4-apollo studio-updatePost](https://github.com/user-attachments/assets/957e3077-f59f-4ca8-8797-80739c2f2546)
+  
+
 - Mutation to delete a post
+  ![5-apollo studio-delete-post](https://github.com/user-attachments/assets/1199ac31-a5f8-4910-987f-6f25d5d99cb6)
+  
+
 
 ## Techstack/Tools used
 
