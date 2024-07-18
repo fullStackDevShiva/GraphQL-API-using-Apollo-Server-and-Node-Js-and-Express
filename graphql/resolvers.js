@@ -12,6 +12,7 @@ const resolvers = {
     },
     // Resolver for fetching a post by ID
     post: async (parent, { id }) => {
+      console.log(id);
       try {
         return await Post.findById(id);
       } catch (error) {
@@ -23,6 +24,7 @@ const resolvers = {
   Mutation: {
     // Resolver for creating a new post
     createPost: async (parent, { title, content }) => {
+
       try {
         const post = new Post({ title, content });
         return await post.save();
@@ -33,6 +35,7 @@ const resolvers = {
 
     // Resolver for updating an existing post
     updatePost: async (parent, { id, title, content }) => {
+      
       try {
         return await Post.findByIdAndUpdate(
           id,
